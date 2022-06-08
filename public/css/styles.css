@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+}
+.mainSec{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftDiv {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../images/office2.jpg);
+    background-size: cover;
+}
+
+.rightDiv {
+    width: 50%;
+    height: 100vh;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 7%;
+}
+
+/* styling navbar */
+.navbar-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 225, 225);
+}
+
+.bell, .setting {
+    height: 30px;
+    margin: 30px;
+}
+
+.navbar-brand {
+    margin: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Styling main-section */
+.main {
+    display: flex;
+}
+
+.left1 {
+    height: 100vh;
+    width: 20%;
+
+}
+
+.right1 {
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(231, 225, 225);
+}
+
+.inventory {
+    width: 20%;
+    height: 10vh;
+    background-color: rgb(111, 199, 111);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.employee {
+    width: 20%;
+    height: 10vh;
+    background-color: rgb(243, 125, 125);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contractor {
+    width: 30%;
+    height: 10vh;
+    background-color: rgb(166, 154, 221);
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.income {
+    width: 20%;
+    height: 10vh;
+    background-color: yellow;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.expense {
+    width: 20%;
+    height: 30vh;
+    background-color: black;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.reports {
+    width: 20%;
+    height: 30vh;
+    background-color: orange;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Myaccount {
+    width: 20%;
+    height: 30vh;
+    background-color: orangered;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+.thediv{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+
+}
+
+/* table{
+    border: 1px solid black;
+    width: 50%;
+  
+}
+
+thead{
+    background-color: black;
+   
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+} */
+
+.myTA{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.myTA:focus{
+    border: none;
+}
